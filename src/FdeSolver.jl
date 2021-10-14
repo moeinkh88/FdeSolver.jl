@@ -46,11 +46,9 @@ Motivates to get started with FdeSolver.
 greet() = print("Hey, let's solve some FDEs!")
 
 include("main.jl")
-include("main_Jacob.jl")
 include("SupFuns.jl")
-include("SupFuns_Jacob.jl")
 
-
-export FDEsolver
+export(FDEsolver)
+export(oldFDEsolver)
 
 end
